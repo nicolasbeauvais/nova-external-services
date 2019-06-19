@@ -1,0 +1,43 @@
+{
+    "name": "nicolasbeauvais/nova-external-services",
+    "description": "A Laravel Nova tool that display shortcuts to your company's external services",
+    "keywords": [
+        "laravel",
+        "nova",
+        "external services"
+    ],
+    "homepage": "https://github.com/nicolasbeauvais/nova-external-services",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Beauvais",
+            "email": "nicolasbeauvais1@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "NicolasBeauvais\\NovaExternalServices\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NicolasBeauvais\\NovaExternalServices\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
