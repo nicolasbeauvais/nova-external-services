@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/external-services', 'ExternalServiceController@index');
+Route::get('/', 'ExternalServiceController@index');
