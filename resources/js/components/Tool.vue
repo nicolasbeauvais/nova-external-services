@@ -11,20 +11,20 @@
 
       <div class="flex">
         <a
-          v-for="service in services"
-          :key="service[0]"
-          :href="service[2]"
+          v-for="(service, index) in services"
+          :key="index"
+          :href="service.url"
           target="_blank"
           class="w-1/4 p-2 no-underline"
         >
           <card class="p-3">
             <h3
               style="color:#000000;"
-              v-html="service[0]"
+              v-html="service.name"
             />
             <p
               style="color:#111111;"
-              v-html="service[1]"
+              v-html="service.description"
             />
           </card>
         </a>

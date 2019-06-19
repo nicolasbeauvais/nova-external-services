@@ -24,7 +24,7 @@ class ToolServiceProvider extends ServiceProvider
         });
 
         $this->publishes([
-            __DIR__.'/../config/external-services.php.php' => config_path('external-services.php')
+            __DIR__.'/../config/external-services.php' => config_path('external-services.php')
         ], 'config');
     }
 
