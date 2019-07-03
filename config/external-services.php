@@ -30,12 +30,12 @@ return [
             [
                 'name' => 'Slack',
                 'description' => 'Communication & Notification',
-                'url' => 'https://shielddb.slack.com/'
+                'url' => 'https://slack.com/'
             ],
             [
                 'name' => 'Trello',
                 'description' => 'Tasks kanban',
-                'url' => 'https://trello.com/b/xHouN08D/shielddb'
+                'url' => 'https://trello.com/'
             ],
         ]
     ]
